@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-""" Provides stats about Nginx logs stored in MongoDB """
+"""
+Script that provides some stats about Nginx logs stored in MongoDB.
+"""
 from pymongo import MongoClient
 
 
 def log_stats():
-    """ Displays stats about Nginx logs in MongoDB """
+    """
+    Display statistics about Nginx logs stored in MongoDB.
+    """
     client = MongoClient('mongodb://127.0.0.1:27017')
     nginx_collection = client.logs.nginx
 
