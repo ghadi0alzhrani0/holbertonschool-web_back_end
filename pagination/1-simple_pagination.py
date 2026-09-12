@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Provide simple pagination for a popular baby names dataset."""
+"""Implement simple pagination for a popular baby names dataset."""
 
 import csv
 import math
